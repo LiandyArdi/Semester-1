@@ -1,0 +1,124 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.container-navbar {
+    background-color: rgb(3, 3, 3);
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar { 
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: rgb(163, 7, 7);
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.container-content {
+    background-image: url('futsal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.a-content {
+    background-color: rgba(199, 15, 15, 0.493);
+    color: rgb(195, 201, 147);
+    text-decoration: none;
+    font-size: 25px;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 14px 13px 28px -6px rgba(117,24,24,0.87);
+    -webkit-box-shadow: 14px 13px 28px -6px rgba(117,24,24,0.87);
+    -moz-box-shadow: 14px 13px 28px -6px rgba(117,24,24,0.87);
+}
+
+.img-content {
+    width: 40%;
+    height: 50%;
+    border-radius: 40px;
+}
+
+.container-footer {
+    height:10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 40px;
+    color: white;
+}
+
+
+
+input[type="submit"], input[type="reset"] {
+    display: inline-block; /* Membuat tombol bersebelahan */
+    box-sizing: border-box; /* Padding dan border termasuk dalam lebar elemen */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 8px 12px; /* Padding */
+    margin: 8px 0; /* Margin */
+    border: none; /* Tidak ada border */
+    cursor: pointer; /* Ubah cursor menjadi pointer saat mouse berada di atas tombol */
+    width: 50%; /* Lebar tombol */
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8; /* Ubah opasitas saat mouse berada di atas tombol */
+}
+
+input[type="reset"] {
+    background-color: #f44336; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 8px 12px; /* Padding */
+    margin: 8px 0; /* Margin */
+    border: none; /* Tidak ada border */
+    cursor: pointer; /* Ubah cursor menjadi pointer saat mouse berada di atas tombol */
+    width: 45%; /* Lebar tombol */
+}
+
+input[type="reset"]:hover {
+    opacity: 0.8; /* Ubah opasitas saat mouse berada di atas tombol */
+}
+
