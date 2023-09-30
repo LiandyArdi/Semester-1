@@ -1,0 +1,14 @@
+Membuat Database dan Table pada phpMyAdmin untuk merekam otomatis saat ada yang menekan "simpan" (STEP TERAKHIR SETELAH CODING YANG LAIN) :
+
+Pertama-tama, buka serta start Apache dan MySQL. 
+
+Kedua, buka command prompt. masuk ke MariaDB lalu ketik " create database form_registrasi; "
+
+Ketiga, ketik " use form_registrasi; "
+
+keempat, ketik " create table `data mahasiswa` (NIM varchar(11) primary key, Nama varchar(30), `Pemilihan Tim` varchar(10), `Tahun Masuk` varchar(4), Jurusan varchar(20), `Nomor Handphone` varchar(20), Kampus varchar(20)); " 
+
+Kelima, buka http://localhost:8080/phpmyadmin ("localhost: " disini itu menyesuaikan dengan port Apache yang tertulis pada aplikasi XAMPP,
+untuk saya port Apachenya adalah 8080. Oleh karena itu, saya membuka localhost:8080.)
+
+Keenam, disebelah kiri ada tertulis "data mahasiswa" pada database "form_registrasi". Anda bisa melihat data yang masuk dari web phpMyAdmin ataupun lewat command prompt
